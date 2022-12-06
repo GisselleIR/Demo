@@ -57,6 +57,28 @@ Print button opens up a window with a printing GUI that can print the database s
 ## Requests Button
 
 ## Documents Button
+The document button opens up to another window which allows the user the management of text documents that may be important to the operation of a company (memos, letters, reports, etc.)
+
+#Create/Edit Document
+This button allows for the creation or editing of a text file.  Text in the text field labeled "File Name" will be used to determine what file we are working with.  If the file does not exist, it is created automatically and if it does, it will be edited without difficulty.
+
+Input validation requires that the file name not be empty.
+
+#Open Document
+The open button is used to open any text file that resides within the working directory.  From there, you may be able to edit the file using the aforementioned create/edit button
+
+Input validation requires that the file name not be empty.
+
+#Delete Document
+The delete document button is simple.  If you would like to get rid of a document that you no longer need, you may press this button.
+
+Input validation requires that the file name not be empty.
+
+#Show Files
+If you would like to see what files contained in your working directory, simply press this button.
+
+As there is no input needed to work this function, there is no input validation.
+
 
 ## Performances Button
 
